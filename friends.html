@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fa-solid fa-lock"></i>
+                <span>11%</span>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+        
+        <header class="screen-header">
+            <span class="screen-header__title">Friends</span>
+            <div class="screen-header__icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </header>
+
+        <a class="friends-names-link" href="#">
+            <i class="fa-solid fa-circle-info"></i>
+            <span class="friends-names-link__title">Friends' Names Display</span>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+
+        <main class="screen-main">
+            <div class="user-list-item">
+                <div class="user-list-item__main">
+                    <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" 
+                    alt="cat is always lovely" 
+                    class="user-list-item__main__profile-img user-list-item__main__profile-img--lg">
+                    <div class="user-list-item__main__info">
+                        <span class="user-list-item__main__info__name">Nicolas?</span>
+                    </div>
+                </div>
+                <div class="user-list-item__icons">
+                    <span class="user-list-item__icons__status-value"></span>
+                </div>
+            </div>
+
+            <section class="friends-channel">
+                <div class="friends-channel__header">
+                    <span class="friends-channel__header__title">Channel</span>
+                    <div class="friends-channel__header__icon">
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+                </div>
+                <div class="user-list-item">
+                    <div class="user-list-item__main">
+                        <img src="data:image/png;base64,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" 
+                        alt="kokoa channel" 
+                        class="user-list-item__main__profile-img user-list-item__main__profile-img--sm">
+                        <div class="user-list-item__main__info">
+                            <span class="user-list-item__main__info__name">Channel</span>
+                        </div>
+                    </div>
+                    <div class="user-list-item__icons">
+                        <div>
+                            <span class="user-list-item__icons__status-value">2</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <nav class="screen-nav">
+            <a href="friends.html" class="screen-nav__icon"><i class="fa-solid fa-user"></i></a>
+            <a href="comments.html" class="screen-nav__icon">
+                <i class="fa-regular fa-comment"></i>
+                <span class="screen-nav__badge unread-comment-number-badge">1</span>
+            </a>
+            <a href="find.html" class="screen-nav__icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="more.html" class="screen-nav__icon"><i class="fa-solid fa-ellipsis"></i></a>
+        </nav>
+        <script src="https://kit.fontawesome.com/a18e38f263.js" crossorigin="anonymous"></script>
+    </body>
+</html>

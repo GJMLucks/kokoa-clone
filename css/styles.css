@@ -1,0 +1,41 @@
+/* Setting */
+@import "reset.css";
+
+/* Component */
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/screen-nav.css";
+@import "components/badges.css";
+@import "components/user-list-item.css";
+
+/* Screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+html {
+    width: 100%;
+}
+
+/* temp border for visualizing */
+
+/* body {
+    border: 1px solid #00000080;
+}
+
+body * {
+    border: 1px solid #00000080;
+}
+
+/* global setting */
+
+body * {
+    font-family: Roboto;
+    color: #000000e0;
+}
+
+.screen-main {
+    margin: 0px 20px;
+}

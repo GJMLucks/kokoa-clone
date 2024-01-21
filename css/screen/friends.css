@@ -1,0 +1,36 @@
+.friends-names-link {
+    height: 50px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #00000040;
+}
+
+.friends-names-link>*:nth-child(1) {
+    font-size: 1.2em;
+}
+
+.friends-names-link>*:nth-child(3) {
+    font-size: .7em;
+}
+
+.friends-names-link__title {
+    margin: 0px 10px 0px 5px;
+    color: #000000d0;
+}
+
+.friends-channel__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    border-top: 1px solid #00000040;
+    margin-top: 15px;
+}
+
+.friends-channel__header__icon * {
+    color: #00000040;
+}
