@@ -1,5 +1,6 @@
 /* Setting */
 @import "reset.css";
+@import "variables.css";
 
 /* Component */
 @import "components/status-bar.css";
@@ -7,21 +8,22 @@
 @import "components/screen-nav.css";
 @import "components/badges.css";
 @import "components/user-list-item.css";
+@import "components/divider.css";
 
 /* Screen */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/chat.css";
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
-html {
-    width: 100%;
-}
 
 /* temp border for visualizing */
 
-/* body {
+body {
     border: 1px solid #00000080;
 }
 

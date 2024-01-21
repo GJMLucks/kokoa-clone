@@ -2,18 +2,54 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin-top: 50px;
 }
 
-.screen-header__title {
-    font-size: 30px;
+.alt-screen-header {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    width: 100vw;
+    height: 50px;
+}
+
+.screen-header__title,
+.alt-screen-header__title {
+    font-size: 24px;
     font-weight: bold;
 }
 
-.screen-header__icons {
+.screen-header__icons,
+.alt-screen-header__col>i {
     font-size: 1.5em;
 }
 
+.alt-screen-header__col:last-child>i {
+    margin-left: 25px;
+}
 .screen-header__icons>* {
     margin-left: 30px;
+}
+.alt-screen-header__col {
+    box-sizing: border-box;
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.alt-screen-header__col:first-child {
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.alt-screen-header__col:nth-child(2) {
+    justify-content: center;
+}
+
+.alt-screen-header__col:last-child {
+    justify-content: flex-end;
+    padding-right: 20px;
 }

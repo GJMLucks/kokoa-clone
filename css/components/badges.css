@@ -9,3 +9,12 @@
     align-items: center;
     font-size: 16px;
 }
+.somethingnew-notification {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    width: 4px;
+    height: 4px;
+    background-color: tomato;
+    border-radius: 50%;
+}

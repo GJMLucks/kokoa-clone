@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="fa-solid fa-lock"></i>
+                <span>11%</span>
+                <i class="fa-solid fa-battery-full"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+        
+        <header class="screen-header">
+            <span class="screen-header__title">Find</span>
+            <div class="screen-header__icons screen-header__icons--find-screean">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-gear">
+                    <div class="somethingnew-notification"></div>
+                </i>
+            </div>
+        </header>
+
+        <main class="screen-main">
+            <ul class="find-action-list">
+                <li class="find-action-list__item">
+                    <div class="find-action-list__item__icon"><i class="fa-solid fa-qrcode"></i></div>
+                    <span class="find-action-list__item__name">QR Code</span>
+                </li>
+                <li class="find-action-list__item">
+                    <div class="find-action-list__item__icon"><i class="fa-regular fa-address-book"></i></div>
+                    <span class="find-action-list__item__name">Add by Contacts</span>
+                </li>
+                <li class="find-action-list__item">
+                    <div class="find-action-list__item__icon"><i class="fa-regular fa-id-card"></i></div>
+                    <span class="find-action-list__item__name">Add by ID</span>
+                </li>
+                <li class="find-action-list__item">
+                    <div class="find-action-list__item__icon"><i class="fa-regular fa-envelope"></i></div>
+                    <span class="find-action-list__item__name">Invite</span>
+                </li>
+            </ul>
+
+            <section class="section">
+                <div class="section__title">
+                    <h4 class="section__title__name">Recommended Friends</h4>
+                    <div class="section__title__link">
+                        <span class="section__title__link__name"></span>
+                        <div class="section__title__link__icon"></div>
+                    </div>
+                </div>
+                <div class="section__main">
+                    <span class="section__main__placeholder-text">You have no Recommended friends.</span>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__title">
+                    <h4 class="section__title__name">Open Chat</h4>
+                    <div class="section__title__link">
+                        <span class="section__title__link__name">Go to Openchat Home</span>
+                        <div class="section__title__link__icon">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__main">
+                    <ul class="open-chat-list">
+                        <li class="open-chat-list__item">
+                            <div class="open-chat-list__item__col">
+                                <span class="open-chat-list__item__col__title">#BTS</span>
+                                <span class="open-chat-list__item__col__hashtags">#bts#army#friends</span>
+                                <div class="open-chat-list__item__col__memberinfo">
+                                    <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-answer/album-cover.jpg" alt="" class="open-chat-list__item__col__memberinfo__img">
+                                    <span class="open-chat-list__item__col__memberinfo__count">802 members</span>
+                                    <div class="divider"></div>
+                                    <span class="open-chat-list__item__col__memberinfo__state">Active</span>
+                                </div>
+                            </div>
+                            <div class="open-chat-list__item__col">
+                                <img src="https://ibighit.com/bts/images/bts/discography/proof/discography-cover.png" alt="" class="open-chat-list__item__col__main-img">
+                                <div class="open-chat-list__item__col__likebtn">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span class="open-chat-list__item__col__likebtn__count">326</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="open-chat-list__item">
+                            <div class="open-chat-list__item__col">
+                                <span class="open-chat-list__item__col__title">Bts Gang~</span>
+                                <span class="open-chat-list__item__col__hashtags">#englishonly #ipurpleyou #limin</span>
+                                <div class="open-chat-list__item__col__memberinfo">
+                                    <img src="https://img5.yna.co.kr/etc/inner/EN/2020/07/17/AEN20200717006200315_01_i_P2.jpg" alt="" class="open-chat-list__item__col__memberinfo__img">
+                                    <span class="open-chat-list__item__col__memberinfo__count">299 members</span>
+                                    <div class="divider"></div>
+                                    <span class="open-chat-list__item__col__memberinfo__state">Active</span>
+                                </div>
+                            </div>
+                            <div class="open-chat-list__item__col">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCILRl8-jFMoDZtUcj1E_AHLgAVvsOZhx8_A&usqp=CAU" alt="" class="open-chat-list__item__col__main-img">
+                                <div class="open-chat-list__item__col__likebtn">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span class="open-chat-list__item__col__likebtn__count">215</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        
+        <nav class="screen-nav">
+            <a href="friends.html" class="screen-nav__icon"><i class="fa-regular fa-user"></i></a>
+            <a href="chats.html" class="screen-nav__icon">
+                <i class="fa-solid fa-comment"></i>
+                <span class="screen-nav__badge unread-comment-number-badge">1</span>
+            </a>
+            <a href="find.html" class="screen-nav__icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="more.html" class="screen-nav__icon"><i class="fa-solid fa-ellipsis"></i></a>
+        </nav>
+
+        <script src="https://kit.fontawesome.com/a18e38f263.js" crossorigin="anonymous"></script>
+    </body>
+</html>

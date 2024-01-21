@@ -1,5 +1,9 @@
 .status-bar {
+    z-index: 2;
+        position: fixed;
+        top: 0;
     display: flex;
+    width: 100vw;
 }
 
 .status-bar__column {

@@ -1,0 +1,44 @@
+.settings-screen {
+    padding-top: 120px;
+}
+
+.settings__li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings__li__col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings__li__col__icon {
+    color: #00000040;
+    font-size: 1.5em;
+}
+
+.settings__li__col__name {
+    font-size: 1.5em;
+    margin-left: 25px;
+}
+
+.settings__li__col__notification-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+}
+
+.settings__li__status {
+    color: #00000080;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

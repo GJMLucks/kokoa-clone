@@ -1,0 +1,19 @@
+.divider {
+    border: 1px solid #00000080;
+    border-top: none;
+    border-bottom: none;
+    margin: 0px 5px;
+}
+
+.li-divider {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #00000010;
+    margin: 24px 0px;
+}
+
+.section-divider {
+    width: 100wv;
+    border: 1px solid #00000040;
+    margin: 44px 0px;
+}
