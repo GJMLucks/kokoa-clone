@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Roboto;
 }
 
 .welcome-header__title {
@@ -25,6 +26,7 @@
 
 .login-form input {
     border: none;
+    width: 100%;
     font-size: 18px;
     padding: 15px 0px;
 }
@@ -46,18 +48,18 @@
     transition: border-color 0.2s ease-in-out;
 }
 
-.login-form input[type="submit"] {
+.login-form input[type="button"] {
     margin-top: 10px;
     border-radius: 5px;
     background-color: #fae100;
 }
 
-.login-form input[type="submit"]:hover {
+.login-form input[type="button"]:hover {
     background-color: #dac100;
     transition: background-color 0.2s ease-in-out;
 }
 
-.login-form a {
+.login-form a:last-child {
     text-align: center;
     text-decoration: none;
     color: inherit;
