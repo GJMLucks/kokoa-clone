@@ -1,3 +1,28 @@
+@keyframes buzz {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    40% {
+        transform: rotateZ(-20deg);
+    }
+
+    60% {
+        transform: rotateZ(20deg);
+    }
+
+    80% {
+        transform: rotateZ(-20deg);
+    }
+
+    100% {
+        transform: rotateZ(10deg);
+    }
+}
 .unread-comment-number-badge {
     width: 22px;
     height: 22px;
@@ -17,4 +42,8 @@
     height: 4px;
     background-color: tomato;
     border-radius: 50%;
+}
+.unread-comment-number-badge,
+.somethingnew-notification {
+    animation: buzz 1s ease-in-out infinite;
 }

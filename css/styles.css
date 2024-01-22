@@ -23,14 +23,6 @@
 
 /* temp border for visualizing */
 
-body {
-    border: 1px solid #00000080;
-}
-
-body * {
-    border: 1px solid #00000080;
-}
-
 /* global setting */
 
 body * {
@@ -38,6 +30,28 @@ body * {
     color: #000000e0;
 }
 
+a {
+    text-decoration: none;
+}
 .screen-main {
     margin: 0px 20px;
+}
+.error-rising-page {
+    z-index: 99;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEE500;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .error-rising-page {
+        visibility: hidden;
+    }
 }

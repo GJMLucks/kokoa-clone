@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    padding: 0px 20px 20px;
 }
 
 .alt-screen-header {
@@ -23,11 +24,11 @@
 }
 
 .screen-header__icons,
-.alt-screen-header__col>i {
+.alt-screen-header__col i {
     font-size: 1.5em;
 }
 
-.alt-screen-header__col:last-child>i {
+.alt-screen-header__col:last-child i {
     margin-left: 25px;
 }
 .screen-header__icons>* {

@@ -25,7 +25,9 @@
         
         <header class="alt-screen-header">
             <div class="alt-screen-header__col">
-                <i class="fa-solid fa-chevron-left"></i>
+                <a href="chats.html">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
             </div>
             <div class="alt-screen-header__col">
                 <span class="alt-screen-header__title">It's me</span>
@@ -47,7 +49,7 @@
                 <div class="chat__col">
                     <span class="chat__col__name">It's you</span>
                     <div class="chat__col__payload">
-                        <p class="chat__col__payload__massage">Hi!</p>
+                        <p class="chat__col__payload__message">Hi!</p>
                         <span class="chat__col__payload__time">21:27</span>
                     </div>
                 </div>
@@ -56,22 +58,31 @@
             <div class="chat chat-from-me">
                 <div class="chat__col">
                     <div class="chat__col__payload">
-                        <p class="chat__col__payload__massage">Hi!</p>
+                        <p class="chat__col__payload__message">Hi!</p>
                         <span class="chat__col__payload__time">21:27</span>
                     </div>
                 </div>
             </div>
         </main>
         
-        <nav class="screen-nav">
-            <a href="friends.html" class="screen-nav__icon"><i class="fa-regular fa-user"></i></a>
-            <a href="chats.html" class="screen-nav__icon">
-                <i class="fa-solid fa-comment"></i>
-                <span class="screen-nav__badge unread-comment-number-badge">1</span>
-            </a>
-            <a href="find.html" class="screen-nav__icon"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="more.html" class="screen-nav__icon"><i class="fa-solid fa-ellipsis"></i></a>
-        </nav>
+        <div class="message-input">
+            <div class="message-input__col">
+                <div class="message-input__col__otherinput-icon">
+                    <i class="fa-solid fa-square-plus"></i>
+                </div>
+            </div>
+            <div class="message-input__col">
+                <input class="message-input__col__input" type="text" placeholder="Write a comment..."/>
+                <div class="message-input__col__emoticon">
+                    <i class="fa-regular fa-face-smile"></i>
+                </div>
+                <div class="message-input__col__send-icon">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="error-rising-page"><span>view-width is too wide</span></div>
 
         <script src="https://kit.fontawesome.com/a18e38f263.js" crossorigin="anonymous"></script>
     </body>
